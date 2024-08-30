@@ -624,7 +624,8 @@ input, select, textarea{
     }
 
     .footer__categories{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .post-detail{

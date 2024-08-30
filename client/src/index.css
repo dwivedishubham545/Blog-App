@@ -541,11 +541,6 @@ input, select, textarea{
     background: var(--color-bg);
 }
 
-.loader__image{
-    width: 4.5rem;
-    aspect-ratio: 1/1;
-
-}
 
 
 

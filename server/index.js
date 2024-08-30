@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://blog-app-shubham.vercel.app/" }));
 app.use(upload())
 app.use('/uploads', express.static(__dirname + '/uploads'))
 
